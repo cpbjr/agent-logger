@@ -1,0 +1,28 @@
+{
+  "name": "@whitepinetech/agent-logger",
+  "version": "1.0.0",
+  "description": "Comprehensive structured JSON logging for autonomous agent systems",
+  "main": "handler.js",
+  "type": "module",
+  "keywords": [
+    "logging",
+    "structured-logging",
+    "json-logging",
+    "autonomous-agents",
+    "openclaw",
+    "agent-logging",
+    "correlation-id",
+    "jsonl"
+  ],
+  "author": "White Pine Tech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhitePineTech/agent-logger.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
