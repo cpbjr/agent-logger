@@ -248,6 +248,24 @@ Contributions welcome! Please:
 4. Add tests if applicable
 5. Submit a pull request
 
+## Dashboard
+
+Generate a beautiful HTML dashboard from your agent logs:
+
+```bash
+node generate-dashboard.js > dashboard.html
+# Open in browser
+```
+
+**Features:**
+- Summary cards: Total entries, today's activity, errors, LLM tokens, unique sessions
+- Events breakdown by component
+- Recent events table (sortable-ish)
+- Responsive design, auto date in title ("Bud's Dashboard - Friday, February 6, 2026")
+- Generated: timestamp
+
+Perfect for quick glances at agent health/activity.
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details
